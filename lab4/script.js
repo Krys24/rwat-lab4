@@ -184,7 +184,7 @@ function fetchDataWithPromises() {
     );
 }
 
-// Attach event listeners to buttons
+// attach event listeners to buttons
 document.getElementById("sync-btn").addEventListener("click", fetchDataSync);
 document
   .getElementById("async-callback-btn")
